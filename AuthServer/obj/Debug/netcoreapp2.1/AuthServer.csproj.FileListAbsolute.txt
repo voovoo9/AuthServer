@@ -1,0 +1,14 @@
+C:\Users\vvukotic\source\repos\AuthServer\AuthServer\bin\Debug\netcoreapp2.1\AuthServer.deps.json
+C:\Users\vvukotic\source\repos\AuthServer\AuthServer\bin\Debug\netcoreapp2.1\AuthServer.runtimeconfig.json
+C:\Users\vvukotic\source\repos\AuthServer\AuthServer\bin\Debug\netcoreapp2.1\AuthServer.runtimeconfig.dev.json
+C:\Users\vvukotic\source\repos\AuthServer\AuthServer\bin\Debug\netcoreapp2.1\AuthServer.dll
+C:\Users\vvukotic\source\repos\AuthServer\AuthServer\obj\Debug\netcoreapp2.1\AuthServer.csprojAssemblyReference.cache
+C:\Users\vvukotic\source\repos\AuthServer\AuthServer\obj\Debug\netcoreapp2.1\AuthServer.csproj.CoreCompileInputs.cache
+C:\Users\vvukotic\source\repos\AuthServer\AuthServer\obj\Debug\netcoreapp2.1\AuthServer.RazorAssemblyInfo.cache
+C:\Users\vvukotic\source\repos\AuthServer\AuthServer\obj\Debug\netcoreapp2.1\AuthServer.RazorAssemblyInfo.cs
+C:\Users\vvukotic\source\repos\AuthServer\AuthServer\obj\Debug\netcoreapp2.1\AuthServer.AssemblyInfoInputs.cache
+C:\Users\vvukotic\source\repos\AuthServer\AuthServer\obj\Debug\netcoreapp2.1\AuthServer.AssemblyInfo.cs
+C:\Users\vvukotic\source\repos\AuthServer\AuthServer\obj\Debug\netcoreapp2.1\AuthServer.RazorTargetAssemblyInfo.cache
+C:\Users\vvukotic\source\repos\AuthServer\AuthServer\bin\Debug\netcoreapp2.1\AuthServer.pdb
+C:\Users\vvukotic\source\repos\AuthServer\AuthServer\obj\Debug\netcoreapp2.1\AuthServer.dll
+C:\Users\vvukotic\source\repos\AuthServer\AuthServer\obj\Debug\netcoreapp2.1\AuthServer.pdb
