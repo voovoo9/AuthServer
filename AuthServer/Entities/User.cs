@@ -7,9 +7,9 @@ namespace AuthServer.Entities
 {
     public class User
     {
-        public int SubjectId { get; set; }
+        public string Id { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }
-
+        public bool Active { get; set; }
     }
 }

@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AuthServer.Data;
+using IdentityServer4.Services;
+using IdentityServer4.Validation;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -26,9 +29,9 @@ namespace AuthServer
         {
             services.AddMvcCore().AddJsonFormatters();
 
-            //services.AddScoped<IAuthRepository, AuthRepository>();
-            //services.AddScoped<IResourceOwnerPasswordValidator, ResourceOwnerPasswordValidator>();
-            //services.AddScoped<IProfileService, ProfileService>();
+            services.AddScoped<IAuthRepository, AuthRepository>();
+            services.AddScoped<IResourceOwnerPasswordValidator, ResourceOwnerPasswordValidator>();
+            services.AddScoped<IProfileService, UserProfileService>();
 
             services.AddIdentityServer()
                     .AddInMemoryIdentityResources(Config.GetIdentityResources())
