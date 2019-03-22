@@ -8,6 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Security.Claims;
 using IdentityModel;
+using Serilog;
 
 namespace AuthServer
 {
@@ -22,6 +23,8 @@ namespace AuthServer
 
         public Task GetProfileDataAsync(ProfileDataRequestContext context)
         {
+            Log.Information("Started getting profile data.");
+
             try
             {
                 var subjectId = context.Subject.GetSubjectId();
@@ -29,22 +32,32 @@ namespace AuthServer
 
                 var claims = new List<Claim>
                 {
-                    new Claim(JwtClaimTypes.Subject, user.Id.ToString())
+                    new Claim(JwtClaimTypes.Subject, user.Id)
                 };
                 context.IssuedClaims = claims;
+
+                Log.Information("Finished getting profile data.");
+
                 return Task.FromResult(0);
             }
             catch (Exception)
             {
+                Log.Information("Error occured while getting profile data.");
+
                 return Task.FromResult(0);
             }
         }
 
         public Task IsActiveAsync(IsActiveContext context)
         {
+            Log.Information("Started checking user IsActive status.");
+
             //var user = _authRepository.GetUserByUsername(context.Subject.GetDisplayName());
             var user = _authRepository.GetUserById(context.Subject.GetSubjectId());
-            context.IsActive = (user != null) && user.Active;
+            context.IsActive = (user != null) && user.IsActive;
+
+            Log.Information("Finished checking user IsActive status.");
+
             return Task.FromResult(0);
         }
     }

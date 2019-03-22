@@ -20,7 +20,7 @@ namespace AuthServer
         {
             return new List<ApiResource>
             {
-                new ApiResource("api1", "My API")
+                new ApiResource("api1", "Aurelia")
             };
         }
 
@@ -30,14 +30,15 @@ namespace AuthServer
             {
                 new Client
                 {
-                    ClientId = "client",
+                    ClientId = "edeja",
                     AllowedGrantTypes =GrantTypes.ResourceOwnerPassword,
 
                     ClientSecrets =
                     {
-                        new Secret("secret".Sha256())
+                        new Secret("edeja123".Sha256())
                     },
-                    AllowedScopes = {"api1"}
+                    AllowedScopes = {"api1"},
+                    AllowOfflineAccess = true
                 }
             };
         }

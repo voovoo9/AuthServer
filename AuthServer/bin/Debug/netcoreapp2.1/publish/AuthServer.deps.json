@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "513feda72bbf86d52a12ce80841d241d57075e18"
+    "signature": "0eb24827a0e6a19d05a09e736d52300dcf90e27e"
   },
   "compilationOptions": {
     "defines": [
@@ -27,12 +27,10 @@
           "Dapper": "1.60.1",
           "IdentityServer4": "2.3.2",
           "Microsoft.AspNetCore.App": "2.1.1",
-          "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
           "Npgsql": "4.0.5",
           "Serilog.AspNetCore": "2.1.1",
-          "Serilog.Sinks.Console": "3.1.1",
-          "Serilog.Sinks.File": "4.0.0"
+          "Serilog.Sinks.Console": "3.1.1"
         },
         "runtime": {
           "AuthServer.dll": {}
@@ -111,7 +109,6 @@
           "lib/netstandard2.0/IdentityServer4.Storage.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Razor.Design/2.1.2": {},
       "Microsoft.IdentityModel.JsonWebTokens/5.2.4": {
         "dependencies": {
           "Microsoft.IdentityModel.Tokens": "5.2.4",
@@ -438,27 +435,6 @@
           "lib/netcoreapp1.1/Serilog.Sinks.Console.dll": {}
         }
       },
-      "Serilog.Sinks.File/4.0.0": {
-        "dependencies": {
-          "Serilog": "2.5.0",
-          "System.IO": "4.3.0",
-          "System.IO.FileSystem": "4.3.0",
-          "System.IO.FileSystem.Primitives": "4.3.0",
-          "System.Runtime.InteropServices": "4.3.0",
-          "System.Text.Encoding.Extensions": "4.3.0",
-          "System.Threading": "4.3.0",
-          "System.Threading.Timer": "4.0.1"
-        },
-        "runtime": {
-          "lib/netstandard1.3/Serilog.Sinks.File.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.0.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard1.3/Serilog.Sinks.File.dll": {}
-        }
-      },
       "System.IdentityModel.Tokens.Jwt/5.2.4": {
         "dependencies": {
           "Microsoft.IdentityModel.JsonWebTokens": "5.2.4",
@@ -572,13 +548,6 @@
         }
       },
       "System.Threading.Tasks.Extensions/4.5.2": {},
-      "System.Threading.Timer/4.0.1": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0",
-          "Microsoft.NETCore.Targets": "2.1.0",
-          "System.Runtime": "4.3.0"
-        }
-      },
       "System.ValueTuple/4.5.0": {},
       "System.Xml.XmlSerializer/4.3.0": {
         "dependencies": {
@@ -717,7 +686,6 @@
           "Microsoft.AspNetCore.NodeServices": "2.1.1",
           "Microsoft.AspNetCore.Owin": "2.1.1",
           "Microsoft.AspNetCore.Razor": "2.1.1",
-          "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.AspNetCore.Razor.Language": "2.1.1",
           "Microsoft.AspNetCore.Razor.Runtime": "2.1.1",
           "Microsoft.AspNetCore.ResponseCaching": "2.1.1",
@@ -1303,7 +1271,6 @@
           "Microsoft.AspNetCore.Mvc.RazorPages": "2.1.1",
           "Microsoft.AspNetCore.Mvc.TagHelpers": "2.1.1",
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.1.1",
-          "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.Extensions.Caching.Memory": "2.1.1",
           "Microsoft.Extensions.DependencyInjection": "2.1.1"
         },
@@ -3403,13 +3370,6 @@
       "path": "identityserver4.storage/2.3.1",
       "hashPath": "identityserver4.storage.2.3.1.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Razor.Design/2.1.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-fe1+dpy+eM4IX1zodsvkihO1Spuj0NecfStWzvkYoMo7/ziOsqSv4vFK36ZpBfHa4gpdCEwaU46EPzdq+ZDYhQ==",
-      "path": "microsoft.aspnetcore.razor.design/2.1.2",
-      "hashPath": "microsoft.aspnetcore.razor.design.2.1.2.nupkg.sha512"
-    },
     "Microsoft.IdentityModel.JsonWebTokens/5.2.4": {
       "type": "package",
       "serviceable": true,
@@ -3515,13 +3475,6 @@
       "path": "serilog.sinks.console/3.1.1",
       "hashPath": "serilog.sinks.console.3.1.1.nupkg.sha512"
     },
-    "Serilog.Sinks.File/4.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-vBj43RkAbeP1dzoPFR2+LfV5GevDRPDq6265JJBv223lMvT9rfdwe/S/I9ow7aZSLYKfw4qPDw6NW8YwjbDbvg==",
-      "path": "serilog.sinks.file/4.0.0",
-      "hashPath": "serilog.sinks.file.4.0.0.nupkg.sha512"
-    },
     "System.IdentityModel.Tokens.Jwt/5.2.4": {
       "type": "package",
       "serviceable": true,
@@ -3598,13 +3551,6 @@
       "sha512": "sha512-BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
       "path": "system.threading.tasks.extensions/4.5.2",
       "hashPath": "system.threading.tasks.extensions.4.5.2.nupkg.sha512"
-    },
-    "System.Threading.Timer/4.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-saGfUV8uqVW6LeURiqxcGhZ24PzuRNaUBtbhVeuUAvky1naH395A/1nY0P2bWvrw/BreRtIB/EzTDkGBpqCwEw==",
-      "path": "system.threading.timer/4.0.1",
-      "hashPath": "system.threading.timer.4.0.1.nupkg.sha512"
     },
     "System.ValueTuple/4.5.0": {
       "type": "package",
