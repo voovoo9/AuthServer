@@ -12272,11 +12272,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vvukotic\\source\\repos\\AuthServer\\AuthServer\\AuthServer.csproj",
+      "projectUniqueName": "E:\\Projects\\AuthServer\\AuthServer\\AuthServer.csproj",
       "projectName": "AuthServer",
-      "projectPath": "C:\\Users\\vvukotic\\source\\repos\\AuthServer\\AuthServer\\AuthServer.csproj",
+      "projectPath": "E:\\Projects\\AuthServer\\AuthServer\\AuthServer.csproj",
       "packagesPath": "C:\\Users\\vvukotic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vvukotic\\source\\repos\\AuthServer\\AuthServer\\obj\\",
+      "outputPath": "E:\\Projects\\AuthServer\\AuthServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
